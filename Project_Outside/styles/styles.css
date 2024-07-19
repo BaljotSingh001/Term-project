@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --font-name: "Roboto Mono", monospace, "sans-sans";
+    --font-color-primary: #FCE7C5; 
+    --font-color-secondary: #FA7070;
+    --bg-color-primary: 143,140,233;
+    --btn-color-primary: #FFA253;
+}
+
+
+.white-color {
+    font-family: var(--font-name);
+    color: var(--font-color-primary);
+}
+
+.light-text-wght {
+    font-weight: 400;
+}
+
+.medium-text-wght {
+    font-weight: 700;
+}
+
+.display-block {
+    display: block;
+    margin: 1.2em;
+}
+
+.p-x {
+    padding: 0em 1.5em;
+}
+
+.p-y {
+    padding: 1.5em 0em;
+}
+
+.m-x {
+    margin: 0em 1.5em;
+}
+
+.m-y {
+    margin: 1.5em 0em;
+}
+
+input {
+    width: 70%;
+    padding: 2.5% ;
+    resize: vertical;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color-secondary);
+}
+
+.btn {
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: var(--font-name);
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-primary {
+    background-color: var(--btn-color-primary);
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-color-primary);
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.btn:active {
+    opacity: 1;
+}
+

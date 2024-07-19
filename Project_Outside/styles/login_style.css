@@ -1,0 +1,45 @@
+
+body {
+    background-image: url("../assets/movie1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 35%;
+    background-color: #3721368e;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    clear: both;
+    display: table;
+}
+
+.form-container {
+    align-content: center;
+    text-align: -webkit-center;
+    padding: 10%;
+}
+
+.input-center-text {
+    text-align-last: center;
+}
+
+.input-center-text:focus {
+    text-align: center;
+}
+
+@media screen and (max-width: 804px){
+    .login-container {
+        height: 90%;
+        width: 90%;
+    }
+}

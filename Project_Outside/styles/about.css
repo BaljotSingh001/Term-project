@@ -1,0 +1,17 @@
+*{
+    color: aliceblue;
+}
+body {
+    background-image: url("../assets/movie3.jpg");
+}
+.about-page {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 75% !important;
+    backdrop-filter: blur(20px);
+}
+
+.list-group {
+    --bs-list-group-bg: none !important;
+
+}
